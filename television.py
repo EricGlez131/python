@@ -11,6 +11,10 @@ class Television:
         self.__channel = Television.MIN_CHANNEL
 
     def power(self):
+        """
+        This function turns the tv either on or off
+        :return: boolean value
+        """
         if not self.__status:
             self.__status = True
         else:
