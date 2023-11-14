@@ -5,6 +5,9 @@ class Television:
     MAX_CHANNEL = 3
 
     def __init__(self):
+        """
+        this method is the constructor for the objects and sets the pre values everytime the object is made
+        """
         self.__status = False
         self.__muted = False
         self.__volume = Television.MIN_VOLUME
