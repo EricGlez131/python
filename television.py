@@ -10,4 +10,23 @@ class Television:
         self.__volume = Television.MIN_VOLUME
         self.__channel = Television.MIN_CHANNEL
 
+    def power(self):
+        pass
 
+    def mute(self):
+        pass
+
+    def channel_up(self):
+        pass
+
+    def channel_down(self):
+        pass
+
+    def volume_up(self):
+        pass
+
+    def volume_down(self):
+        pass
+
+    def __str__(self):
+        return f'Power = [{self.__status}], Channel = [{self.__channel}], Volume = [{self.__volume}]'
