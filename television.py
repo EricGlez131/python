@@ -20,7 +20,7 @@ class Television:
     def mute(self):
         if self.__status:
             self.__muted = not self.__muted
-            if self.__volume > 0 and self.__muted:
+            if self.__volume > 0 or self.__muted:
                 self.prior = self.__volume
                 self.__volume = 0
 
